@@ -1,0 +1,293 @@
+{
+  "competition": "news-image-20261121",
+  "day": "Saturday 21 November 2026",
+  "built": "2026-11-21 ~17:47 WIB (10:47 UTC), builder session",
+  "heroes": [
+    {
+      "n": 1,
+      "scene": "climate",
+      "kicker": "ANTALYA · CLIMATE",
+      "headline": "COP31 deadlocked as fossil fuels vanish from draft",
+      "standfirst": "Talks run into overtime; $120bn aid figure dropped.",
+      "region": "WORLD",
+      "chip": "REPORTED"
+    },
+    {
+      "n": 2,
+      "scene": "bridge",
+      "kicker": "UKRAINE · WAR",
+      "headline": "Zelensky: Putin is a killer",
+      "standfirst": "Rebuke after Trump calls Putin a friend in China.",
+      "region": "EUROPE",
+      "chip": "REPORTED"
+    },
+    {
+      "n": 3,
+      "scene": "market",
+      "kicker": "MARKETS · CRYPTO",
+      "headline": "Bitcoin sinks below $56,000",
+      "standfirst": "Lowest since September 2024; $2.4bn liquidated.",
+      "region": "WORLD",
+      "chip": "REPORTED"
+    }
+  ],
+  "mids": [
+    {
+      "n": 4,
+      "scene": "drone",
+      "kicker": "HORMUZ · CONFLICT",
+      "headline": "Iran says it downed a US drone",
+      "standfirst": "IRGC claims 58th MQ-9 shot down over the strait.",
+      "region": "ASIA",
+      "chip": "CLAIM"
+    },
+    {
+      "n": 5,
+      "scene": "fire",
+      "kicker": "IRAQ · BASRA",
+      "headline": "Fire kills four at power station",
+      "standfirst": "Blaze at Hartha plant injures 35; 800 MW halted.",
+      "region": "ASIA",
+      "chip": "REPORTED"
+    },
+    {
+      "n": 6,
+      "scene": "village",
+      "kicker": "INDIA · MANIPUR",
+      "headline": "Toxic alcohol kills 11",
+      "standfirst": "More than 180 poisoned; inquiry opened.",
+      "region": "ASIA",
+      "chip": "REPORTED"
+    },
+    {
+      "n": 7,
+      "scene": "tech",
+      "kicker": "U.S. · CYBER",
+      "headline": "FBI crime database hacked",
+      "standfirst": "Bureau probes NCIC breach; USDA also hit.",
+      "region": "NORTH AMERICA",
+      "chip": "REPORTED"
+    },
+    {
+      "n": 8,
+      "scene": "space",
+      "kicker": "SPACE · MERCURY",
+      "headline": "BepiColombo arrives at Mercury",
+      "standfirst": "Orbit burn due 18:24 UTC after 8 years, 10bn km.",
+      "region": "WORLD",
+      "chip": "REPORTED"
+    },
+    {
+      "n": 9,
+      "scene": "missile",
+      "kicker": "RIYADH · DEFENCE",
+      "headline": "Three missiles downed",
+      "standfirst": "Third night of Houthi fire intercepted.",
+      "region": "ASIA",
+      "chip": "REPORTED"
+    },
+    {
+      "n": 10,
+      "scene": "parliament",
+      "kicker": "TAIWAN · MARKETS",
+      "headline": "Taiwan fund steps in after rout",
+      "standfirst": "Stabilisation fund buys after worst week since 1990.",
+      "region": "ASIA",
+      "chip": "REPORTED"
+    },
+    {
+      "n": 11,
+      "scene": "flags",
+      "kicker": "BRITAIN · EUROPE",
+      "headline": "UK-EU deal: fees no bar",
+      "standfirst": "Miliband says pact stands without tuition deal.",
+      "region": "EUROPE",
+      "chip": "REPORTED"
+    },
+    {
+      "n": 12,
+      "scene": "court",
+      "kicker": "GENEVA · ARMS",
+      "headline": "Killer-robot talks end with no rules",
+      "standfirst": "UN talks end; binding rules pushed to 2028.",
+      "region": "EUROPE",
+      "chip": "REPORTED"
+    },
+    {
+      "n": 13,
+      "scene": "city",
+      "kicker": "SOUTH AFRICA · POLITICS",
+      "headline": "ANC fights to keep its cities",
+      "standfirst": "Vote share falls to 31% after poll setback.",
+      "region": "AFRICA",
+      "chip": "REPORTED"
+    }
+  ],
+  "tail": [
+    {
+      "n": 14,
+      "region": "ASIA",
+      "place": "ODISHA",
+      "brief": "Akvan weakens; 209 mm rain"
+    },
+    {
+      "n": 15,
+      "region": "EUROPE",
+      "place": "KRYVYI RIH",
+      "brief": "New overnight strike wounds 58"
+    },
+    {
+      "n": 16,
+      "region": "EUROPE",
+      "place": "WARSAW",
+      "brief": "NATO chief Rutte due in Warsaw"
+    },
+    {
+      "n": 17,
+      "region": "NORTH AMERICA",
+      "place": "WASHINGTON",
+      "brief": "Lukoil sale deadline expires"
+    },
+    {
+      "n": 18,
+      "region": "WORLD",
+      "place": "CAMBRIDGE",
+      "brief": "Riemann proof passes checks"
+    },
+    {
+      "n": 19,
+      "region": "AFRICA",
+      "place": "BAYELSA",
+      "brief": "Funeral boat capsizes, four dead"
+    },
+    {
+      "n": 20,
+      "region": "SOUTH AMERICA",
+      "place": "PERU",
+      "brief": "M6.7 quake shakes Andes, no deaths"
+    },
+    {
+      "n": 21,
+      "region": "ASIA",
+      "place": "TIMOR-LESTE",
+      "brief": "M6.8 quake off Lospalos"
+    },
+    {
+      "n": 22,
+      "region": "ASIA",
+      "place": "JAKARTA",
+      "brief": "Fires burned 7.1m acres in 2026"
+    },
+    {
+      "n": 23,
+      "region": "ASIA",
+      "place": "TOKYO",
+      "brief": "Supercomputer Fugaku hacked"
+    },
+    {
+      "n": 24,
+      "region": "NORTH AMERICA",
+      "place": "SAN FRANCISCO",
+      "brief": "Open-weight AI model ships"
+    },
+    {
+      "n": 25,
+      "region": "NORTH AMERICA",
+      "place": "WASHINGTON",
+      "brief": "Trump vows AI-centre tax"
+    },
+    {
+      "n": 26,
+      "region": "WORLD",
+      "place": "ADDIS ABABA",
+      "brief": "Ethiopia to host COP32 in 2027"
+    },
+    {
+      "n": 27,
+      "region": "EUROPE",
+      "place": "LONDON",
+      "brief": "Gove calls EU deal a step back"
+    },
+    {
+      "n": 28,
+      "region": "EUROPE",
+      "place": "KYIV",
+      "brief": "Bridge traffic restored"
+    },
+    {
+      "n": 29,
+      "region": "EUROPE",
+      "place": "STOCKHOLM",
+      "brief": "Swedish jets join NATO watch"
+    },
+    {
+      "n": 30,
+      "region": "ASIA",
+      "place": "TEHRAN",
+      "brief": "Iran seeks diplomacy guarantees"
+    },
+    {
+      "n": 31,
+      "region": "ASIA",
+      "place": "KUALA LUMPUR",
+      "brief": "Haze drifts over the strait"
+    },
+    {
+      "n": 32,
+      "region": "NORTH AMERICA",
+      "place": "WASHINGTON",
+      "brief": "Farm department also hacked"
+    },
+    {
+      "n": 33,
+      "region": "NORTH AMERICA",
+      "place": "NEW YORK",
+      "brief": "Crypto fear gauge at extreme 12"
+    }
+  ],
+  "stats": [
+    {
+      "number": "$120BN",
+      "label": "adaptation aid cut from COP31 draft"
+    },
+    {
+      "number": "58",
+      "label": "US drones Iran claims downed"
+    },
+    {
+      "number": "180",
+      "label": "poisoned by toxic alcohol in Manipur"
+    },
+    {
+      "number": "$2.4BN",
+      "label": "crypto liquidations in 24 hours"
+    },
+    {
+      "number": "800 MW",
+      "label": "power halted by Basra fire"
+    },
+    {
+      "number": "6.7",
+      "label": "magnitude of Peru quake"
+    }
+  ],
+  "date_check": [
+    "Russia's Kyiv bridges barrage — overnight 19–20 Nov, not today.",
+    "ICJ Myanmar genocide ruling — 19 Nov; only reactions are new today.",
+    "AI sell-off, S&P −3.7% — Friday 20 Nov close, not Saturday.",
+    "Trump–Xi–Putin summit, Shenzhen — Thursday 19 Nov.",
+    "GTA VI $3.79bn day-one sales — announced 20 Nov; launch 19 Nov.",
+    "UK–EU reset deal — signed Friday 20 Nov; only reaction is new today."
+  ],
+  "sources": "Sources: BBC · AP · Reuters · Al Jazeera · The Guardian · TBS News · Tasnim · AAP · USGS — 21 November 2026. All drawings original. THE WORLD IN ONE DAY · PAGE 1 · 13 DRAWN SCENES",
+  "notes": [
+    "COP31 hero: BBC #1 on 21 Nov; AP confirms overtime + third draft Saturday; 20bn adaptation figure dropped (2nd draft).",
+    "Zelensky hero: BBC/TBS 21 Nov 11:35; CNN interview. 110 missiles incl 27 ballistic + 400+ drones is the 20 Nov barrage as quoted by Zelensky on 21 Nov, NOT dated as a 21 Nov event on the page.",
+    "Bitcoin hero: below $56,000 on Saturday 21 Nov (06:06 UTC $55,684, CoinGecko via Que.com), lowest since Sept 2024, $2.4bn liquidations. Price moved intraday ($55.5k-57.9k) — re-verify before submit.",
+    "BepiColombo: orbit insertion burn 18:24 UTC 21 Nov (after build time) — re-check outcome before submit; swap #8 if it fails/slips.",
+    "Manipur toll disputed across outlets (11 vs 12-15 dead; 180 vs 200-300 hospitalised) — lowest sourced figures used.",
+    "Peru M6.7: event 20 Nov 19:09 local (00:09 UTC 21 Nov), first reported 21 Nov — tail brief only, not featured.",
+    "Taiwan fund: National Stabilization Fund statement + Executive Yuan meeting 21 Nov; no trading Saturday. Worst week since 1990 per 21 Nov BigGo report (some sources say 1991).",
+    "Akvan evacuations: ~300,000 per IMD-linked sources (NOT 370k)."
+  ]
+}
