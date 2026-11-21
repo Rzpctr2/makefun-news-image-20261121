@@ -1,31 +1,30 @@
-// news-image-20261121 — entry v2 ("The World in One Day", 21 Nov 2026).
+// news-image-20261121 — entry v3 ("The World in One Day", 21 Nov 2026).
 //
-// The deliverable is the finished newspaper image, entry.png, sitting next
-// to this file. This program's only job is to place an exact copy of it at
-// /output/entry.png (or $MAKEFUN_OUTPUT_DIR/entry.png when the grader sets
-// one). The grader executes the program twice and demands byte-identical
-// output both times, so the copy must be a raw byte transfer: no decoding,
-// no re-encoding, no timestamps, no extra files written.
+// The judged artifact is the finished newspaper image, entry.png, which
+// sits beside this file. This script does one thing only: drop an exact
+// byte-for-byte copy of that image at <output>/entry.png, where <output>
+// is $MAKEFUN_OUTPUT_DIR when the grader sets it and /output otherwise.
 //
-// Written fresh for the v2 resubmit in the prep session; the v2 image is
-// drawn by generate-v2.py (Python + PIL) and checked by verify-v2.py
-// (30 checks, all passing). The image itself is not generated here — the
-// drawing code lives in the repository for the record, and entry.png is
-// the rendered artifact the judge sees.
+// Nothing is decoded or re-encoded here, so running the script twice
+// produces identical bytes both times. The drawing itself lives in
+// generate-v3.py (Python + PIL, driven by news-v3.json) and is checked
+// by verify-v3.py; this file is just the delivery step.
 import { copyFileSync, existsSync, mkdirSync, statSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const here = dirname(fileURLToPath(import.meta.url));
-const source = join(here, 'entry.png');
+const folder = dirname(fileURLToPath(import.meta.url));
+const entry = join(folder, 'entry.png');
 
-if (!existsSync(source)) {
-  throw new Error(`entry.png missing next to main.ts (looked in ${here})`);
-}
-if (statSync(source).size > 1024 * 1024) {
-  throw new Error('entry.png exceeds the 1 MiB gate');
+if (!existsSync(entry)) {
+  throw new Error(`entry.png not found next to main.ts (looked in ${folder})`);
 }
 
-const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
-mkdirSync(outDir, { recursive: true });
-copyFileSync(source, join(outDir, 'entry.png'));
+const size = statSync(entry).size;
+if (size > 1024 * 1024) {
+  throw new Error(`entry.png is ${size} bytes, over the 1 MiB gate`);
+}
+
+const destination = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
+mkdirSync(destination, { recursive: true });
+copyFileSync(entry, join(destination, 'entry.png'));
